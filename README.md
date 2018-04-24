@@ -94,7 +94,7 @@ export default class Gun extends React.Component{
     render(){
         return(
             <div>
-                \<h1 style={{backgroundColor:"deepskyblue",textAlign:"center",color:"white"}}>看控制台\</h1>
+                \<h1 style={{backgroundColor:"deepskyblue",textAlign:"center",color:"white"}}>看控制台</h1>
             </div>
         )
     }
