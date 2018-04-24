@@ -32,6 +32,9 @@ npm start  => 查看网页的console
 
 第一个参数state是当前的状态，第二个参数action是接收到的action对象，而reducer函数要做的事情就是根据state和action的值产生一个新的对象返回，注意reducer必须是__纯函数__，也就是说函数的返回结果必须完全__由参数state和acion决定__，而且不产生__副作用__，也不能__修改__state和action对象。
 
+###### createStore
+上面的reducer是我们自己写的，但createStore是redux提供的函数，这个函数第一个参数代表更新状态的reducer，第二个参数可选，是状态的初始值，第三个参数可选，代表Store Enhance（增强Store，不过现阶段没用到。）
+
 接下来直接看代码了，唯有实践才能出真理：
 
 ```
@@ -107,7 +110,7 @@ store(state) -> dispach(action) -> reducer -> new state
 
 >先创建action
 >>再创建reducer（counter）
->>>创建一个store状态树（这是redux帮我们管理的），创建的时候会执行一次reducer
+>>>createStore创建一个store状态树（这是redux帮我们管理的），创建的时候会执行一次reducer
 >>>>订阅函数（自己编写函数内容），store中state改变时会被调用
 >>>>>>dispatch（action），分发action，把state和action传入reducer中的case执行语句，返回新状态
 
@@ -120,6 +123,3 @@ UI -> store(state)  -> dispach(action) -> middleware -> reducer -> new state -> 
 喜欢的话，可以star下😄
 
 用组件把redux封装起来的例子，过几天会发布。
-
-
-
