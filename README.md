@@ -3,11 +3,15 @@
 ### redux demo
 有助于理解redux原理的小例子
 
-##### cd到一个新的文件夹
+##### 下载&&启动
 
-<pre><code>git clone 
+<pre><code>cd 新文件夹
+git clone git@github.com:TypeInfos/redux-demo-.git
+cd redux-demo-/my-app
+npm install =>安装package.json中的依赖
+npm start  => 查看网页的console
 </pre></code>
-##### 然后npm install => 等待安装 => cd my-app => npm start
+##### 
 
 #### Redux强调三个基本原则
 
