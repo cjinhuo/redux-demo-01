@@ -34,7 +34,7 @@ npm start  => 查看网页的console
 
 接下来直接看代码了，唯有实践才能出真理：
 
-<pre><code>
+```
 import {createStore} from 'redux';
 import React from 'react';
 
@@ -99,7 +99,7 @@ export default class Gun extends React.Component{
         )
     }
 }
-</pre></code>
+```
 
 
 ##### 上面的顺序如下
