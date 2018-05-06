@@ -1,4 +1,4 @@
-## react-redux的原理
+## redux的原理
 ---------------------
 ### redux demo
 有助于理解redux原理的小例子
