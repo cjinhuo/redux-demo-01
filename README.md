@@ -121,3 +121,4 @@ UI -> store(state)  -> dispach(action) -> middleware -> reducer -> new state -> 
 -------------
 
 喜欢的话，可以star下😄
+下一篇[手动管理redux渲染到页面](https://github.com/TypeInfos/redux-demo02 "渲染篇")
