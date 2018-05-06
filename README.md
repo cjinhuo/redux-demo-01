@@ -121,5 +121,3 @@ UI -> store(state)  -> dispach(action) -> middleware -> reducer -> new state -> 
 -------------
 
 喜欢的话，可以star下😄
-
-用组件把redux封装起来的例子，过几天会发布。
