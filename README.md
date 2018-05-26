@@ -6,8 +6,8 @@
 ##### 下载&&启动
 
 <pre><code>cd 新文件夹
-git clone git@github.com:TypeInfos/redux-demo-.git
-cd redux-demo-/my-app
+git clone git@github.com:TypeInfos/redux-demo-01.git
+cd redux-demo-01/my-app
 npm install =>安装package.json中的依赖
 npm start  => 查看网页的console
 </pre></code>
